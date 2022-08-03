@@ -1,0 +1,28 @@
+
+html{
+    background-color: red;
+}
+body{
+    width: 900px;
+    height: 900px;
+    background-color: white;
+    margin: 30px auto;
+}
+li{
+    font-weight: bold;
+}
+h2{
+    text-transform: uppercase;
+    font-family: 'letter-spacing';
+    color: red;
+}
+header{
+    text-align: center;
+    background-color: grey;
+}
+header h2{
+    color: blue;
+}
+main{
+  margin-left: 60px;
+}
