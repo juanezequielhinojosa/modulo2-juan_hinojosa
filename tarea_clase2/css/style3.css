@@ -1,0 +1,16 @@
+header{
+    border-bottom: 2px solid blue;
+}
+.clase_borde_gris{
+    border: 2px solid grey;
+    
+}
+.borde_lista{
+   border-style: dotted;
+}
+#lista1{
+    border-color: red;
+}
+#lista2{
+    border-color: green;
+}

@@ -1,0 +1,35 @@
+header{
+    background-color: blue;
+   /* text-transform: uppercase;
+    text-align: center;
+    color: white;*/
+}
+/*h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}*/
+header h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+section{
+    margin-left: 10%;
+    /*font-family: 'letter-spacing';
+    text-transform: uppercase;
+    color: goldenrod;*/
+}
+/*h2{
+    font-family: 'letter-spacing';
+    text-transform: uppercase;
+    color: goldenrod;
+}*/
+section h2{
+    font-family: 'letter-spacing';
+    text-transform: uppercase;
+    color: goldenrod;
+}
+li{
+    font-weight: bold;
+}

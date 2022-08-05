@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tarea_clase2/css/style4.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Fullstack</h1>
+      <h2>formulario de registro</h2>
+    </header>
+    <form action="">
+      <section>
+        <fieldset class="contenedor">
+          <legend>¿quien eres?</legend>
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" />
+          <label for="apellido">Apellido</label>
+          <input type="text" name="apellido" id="apellido" />
+          <label for="correo"> correo electronico</label>
+          <input type="email" name="correo" id="correo" />
+        </fieldset>
+      </section>
+      <section>
+        <fieldset class="contenedor">
+          <legend>¿de donde eres?</legend>
+          <label for="ciudad">Ciudad</label>
+          <input type="text" name="ciudad" id="ciudad" />
+          <label for="codigo">Codigo postal</label>
+          <input type="number" name="codigo" id="codigo" />
+          <label for="selector">Pais</label>
+          <select name="selector" id="selector">
+            <option value="">ARGENTINA</option>
+            <option value="">BRAZIL</option>
+            <option value="">CHILE</option>
+            <option value="">PARAGUAY</option>
+            <option value="">URUGUAY</option>
+          </select>
+        </fieldset>
+      </section>
+      <section>
+        <fieldset class="contenedor">
+          <legend>¿como quieres iniciar secion?</legend>
+          <label for="usuario">Nombre de usuario</label>
+          <input type="text" name="usuario" id="usuario" />
+          <label for="password1">Contraseña</label>
+          <input type="password" name="password1" id="password1" />
+          <label for="password2">Vuelva a escribir contraseña</label>
+          <input type="password" name="password2" id="password2" />
+        </fieldset>
+      </section>
+      <section class="contenedor">
+        <div>
+          <input type="checkbox" name="chek" id="check" />
+          <label for="chek">Acepto el acuerdo de servicios</label>
+        </div>
+
+        <div id="divbtn">
+          <input type="button" value="Crear cuenta" id="btn" />
+        </div>
+      </section>
+    </form>
+  </body>
+</html>

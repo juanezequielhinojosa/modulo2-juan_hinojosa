@@ -1,0 +1,42 @@
+body{
+    width: 700px;
+    margin: 30px auto;
+}
+header{
+    text-align: center;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+input{
+    width: 20%;
+}
+select{
+    width: 20%;
+}
+
+legend{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+label{
+    font-weight: bold;
+}
+#check{
+    width:auto;
+}
+#btn {
+ padding: 10px;
+ font-size: 20px;
+ 
+
+ 
+}
+#divbtn{
+    
+    margin-top: 30px;
+    text-align: center;
+    
+}
