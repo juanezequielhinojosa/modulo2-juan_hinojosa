@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/style7.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Full stack</h1>
+        <h2>Formualrio</h2>
+    </header>
+    <main>
+         <section>
+        <fieldset class="contenedor">
+            <legend>¿quien eres?</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="apellido">Apelido</label>
+            <input type="text" name="apellido" id="apellido">
+            <label for="correo">Correo electronico</label>
+            <input type="email" name="correo" id="correo">
+            <label for="fecha">Fecha de nacieminto</label>
+            <input type="date" name="fecha" id="fecha">
+        </fieldset>
+    </section>
+    <section>
+        <fieldset class="contenedor">
+            <legend>¿de donde eres?</legend>
+            <label for="ciudad">Ciudad</label>
+            <input type="text" name="ciudad" id="ciudad">
+            <label for="codigo">Codigo Postal</label>
+            <input type="number" name="codigo" id="codigo">
+            <label for="pais">Pais</label>
+            <select name="pais" id="pais">
+                <option value="" selected>Argentina</option>
+                <option value="">Bolivia</option>
+                <option value="">Brazil</option>
+                <option value="">Chile</option>
+                <option value="">Paraguay</option>
+                <option value="">Uruguay</option>
+                
+            </select>
+        </fieldset>
+    </section>
+    <section>
+        <fieldset class="contenedor">
+            <legend>¿como quieres iniciar secion?</legend>
+            <label for="usuario">Nombre de usuario</label>
+            <input type="text" name="usuario" id="usuario">
+            <label for="contraseña">Contraseña</label>
+            <input type="password" name="contraseña" id="contraseña">
+            <label for="contraseña2">Vuelve a escribir Contraseña</label>
+            <input type="password" name="contraseña2" id="contraseña2">
+        </fieldset>
+    </section>
+    <section id="section_footer">
+       <div id="section_footer_label">
+        <input type="checkbox" name="terminos" id="termino">
+        <label for="termino">Acepto terminos y condiciones</label>
+       </div>
+        
+        <br>
+        <input type="button" value="Ingresar" class="btn">
+    </section>
+    </main>
+   
+</body>
+</html>

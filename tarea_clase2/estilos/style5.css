@@ -1,0 +1,16 @@
+header{
+    background-color: rgb(76, 76, 248);
+    text-align: center;
+    text-transform: uppercase;
+    color: bisque;
+}
+h2{
+    text-transform: uppercase;
+    color: goldenrod;
+}
+ul{
+    font-weight: bold;
+}
+main{
+    margin-left: 60px;
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fascinate&display=swap');
+
+html{
+    background-color: blueviolet;
+}
+body{
+    background-color: white;
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.contenedor{
+    padding: 30px;
+    border: 2x solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    background-color: rgb(233, 223, 223);
+
+}
+.contenedor input{
+    width: 30%;
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+}
+.contenedor select{
+    width: 31%;
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+}
+legend{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode';
+}
+.btn{
+    width: 25%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn :hover{
+    color:orange
+}
+#section_footer {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode';
+}
+#section_footer_label {
+  float: left;
+}
