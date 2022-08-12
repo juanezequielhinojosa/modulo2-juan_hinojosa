@@ -73,6 +73,15 @@ if(productos.includes(producto)){
     alert('producto agregado');
     console.log('lista de productos = ' + productos);
 }
+for(let i=0;i<productos.length;i++){
+    console.log('Producto '+i+'= '+productos[i]);
+}
+console.log('otra forma');
+let indice=0;
+while(indice<productos.length){
+    console.log('Producto'+indice+'='+productos[indice]);
+    indice++;
+}
 
 
 
