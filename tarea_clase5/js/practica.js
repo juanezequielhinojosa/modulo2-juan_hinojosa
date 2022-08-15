@@ -64,7 +64,7 @@ if(num >=10 && num<=50){
 let mayorEdad=edad>18? true:false;*/
 
 //arrays
-let productos=['cafe','leche','mate','gaseosa','fideo'];
+/*let productos=['cafe','leche','mate','gaseosa','fideo'];
 let producto=prompt('ingrese un producto');
 if(productos.includes(producto)){
     alert('el producto ya existe en la lista');
@@ -81,7 +81,8 @@ let indice=0;
 while(indice<productos.length){
     console.log('Producto'+indice+'='+productos[indice]);
     indice++;
-}
+}*/
 
-
+/*let fecha=new Date().getTime();
+console.log();*/
 
