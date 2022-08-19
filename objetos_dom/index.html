@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cosmo/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Tienda de Productos</title>
+    
+</head>
+<body>
+    <!--NAVEGACION-->
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="index.html" class="navbar-brand">Producto App</a>
+    </nav>
+    <!--CONTENEDOR PRINCIPAL-->
+    <div class="container">
+        <div id="app" class="row pt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Producto</h4>
+                    </div>
+                    <form id="producto-form" class="card-body">
+                        <div class="form-group">
+                            <input type="text" name="nombre" id="nombre" placeholder="Ingrese el nombre del producto" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="number" name="precio" id="precio" step="0.01" placeholder="Ingrese el precio del producto" class="form-control">
+                      
+                        </div>
+                        <div class="form-group">
+                            <input type="number" name="año" id="año" min="2010" max="2022" placeholder="Ingrese el precio del producto" class="form-control">
+                      
+                        </div>
+                        <input type="submit" value="Enviar" class="btn btn-primary btn-block" id="btn">
+                    </form>
+                </div>
+            </div>
+            <div id="plist" class="col-md-8">
+               
+            </div>
+            <script src="main.js"></script>
+        </div>
+
+    </div>
+</body>
+</html>

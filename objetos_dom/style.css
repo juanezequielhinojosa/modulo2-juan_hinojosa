@@ -1,0 +1,24 @@
+.card-header {
+    background-color: blue;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+
+.card-header h4{
+
+    font-weight: bolder;
+   
+}
+#btn{
+    background-color: blue;
+    border-radius: 10px;
+    border-color: blue;
+    padding: 20px;
+    font-size: 20px;
+}
+#btn:hover{
+    background-color: blueviolet;
+    border-radius: 10px;
+    border:2px solid black;
+}
