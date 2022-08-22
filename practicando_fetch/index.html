@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cosmo/bootstrap.min.css"/>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+   <!-- NAVEGACION -->
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="https://swapi.dev/" target="_blank">STAR WARS API</a>
+      
+      
+    </nav>
+
+    <div class="container">
+      <!--PRINCIPAL-->
+      <div id="App" class="row pt-5">
+        <!-- FORM -->
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header">
+              <h4>Busca tu personaje de STAR WARS</h4>
+            </div>
+            <form id="nombre-form" class="card-body">
+              <div class="form-group">
+                <label for=""id="nombre-personaje" class="form-control">Nombre</label>
+                
+              </div>
+             
+              <input type="submit" value="Buscar" class="btn btn-primary btn-block" onclick="obtenerPersonaje()"/>
+            </form>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+
+   
+  </body>
+</html>

@@ -139,10 +139,32 @@ console.log(j);*/
 /*console.log(JSON.stringify(pers));*/
 
 //PROMESAS ---------------------------------
-console.log("antes de promesa...");
+/*console.log("antes de promesa...");
 let promise = new Promise(function (resolve, reject) {  
   setTimeout(() => resolve(), 5000);
 }).then((resp) => {
   console.log("termino timeout...");
 });
-console.log("despues de promesa...");
+console.log("despues de promesa...");*/
+
+//const saludar=()=>alert('hola');
+
+//practicando promesas
+let autos=['chevrolet','ford','bmw','MercedesVenz','toyota']
+
+/*const getAutos=()=>{
+    return autos;
+}*/
+
+const getAutos=()=>{
+    return new Promise((resolve,reject)=>{
+       setTimeout(()=>{
+        resolve (autos);
+       }, 2000); 
+    });
+    
+    
+}
+console.log(getAutos());
+getAutos()
+.then((autos) => console.log(autos));
