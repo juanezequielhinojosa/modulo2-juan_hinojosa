@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #0ead69;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+#header-principal {
+ /* background-color: blueviolet;*/
+  height: 100vh;
+}
+
+
+.contenedor{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+ /*background-color: yellow;*/
+  display: block;
+  overflow: hidden;
+  /*height: 200px;*/
+}
+
+a{
+  text-decoration: none;
+}
+#header-principal nav .contenedor .navegacion{
+  float: left;
+  text-transform: uppercase;
+}
+
+.navegacion ul li {
+  padding-top: 20px;
+  float: left;
+  list-style: none;
+}
+.navegacion ul li a {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  display: block;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.navegacion ul li :hover {
+  background-color: #540d6e;
+  color: #ffd23f;
+  font-weight: bolder;
+  border-bottom: 3px solid white;
+}
+#header-principal nav .contenedor .logo{
+  float: right;
+  text-transform: uppercase;
+  height: 100px;
+  padding-top: 10px;
+  padding-right: 10px;
+  
+}
+#header-principal nav .contenedor .logo img{
+  width: 160px;
+  height: 80px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 0 #ffd23f;
+  
+  
+}
+
+/*HOME*/
+#home{
+  margin-top: 60px;
+}
+#home #seccion-texto{
+  width: 50%;
+ /* background-color: aquamarine;*/
+  float: left;
+  padding: 20px 20px 20px 40px;
+}
+
+#seccion-texto  h1 {
+  text-transform: uppercase;
+  font-size: 46px;
+  font-weight: 500;
+}
+.title-1 {
+  color: #ffd23f;
+  font-size: 29px;
+  font-weight: 400px;
+}
+.title-2 {
+  color: #540d6e;
+}
+.large {
+  padding-top: 20px;
+}
+#home #seccion-img{
+  width: 50%;
+  /*background-color: rgb(148, 255, 127);*/
+  float: right;
+}
+#home #seccion-img img{
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 90%;
+  height: 40%;
+  border-radius: 20px;
+  box-shadow: 0 0 30px 0 #540d6e;
+ 
+}
+/*EVENTO*/
+.flexible{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#evento #seccion-video{
+  background-color: #ffd23f;
+  margin-left: 40px;
+  width: 50%;
+  height: 70%;
+  border-radius: 20px;
+  box-shadow: 0 0 30px 0 #540d6e;
+}
+
+/*#evento #seccion-video div{
+  background-color: #ffd23f;
+  width: 100%;
+  height: 100%;
+  
+  
+}*/
+#evento #seccion-video  iframe{
+  
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  
+}
+
+
+#evento #seccion-titulo{
+  width: 50%;
+
+}
+
+#evento #seccion-titulo{
+  text-align: center;
+}
+#evento #seccion-titulo h1{
+  text-transform: uppercase;
+  font-size: 46px;
+  font-weight: 500;
+}
+
+
+
+/*nosotros*/
+#nosotros{
+  padding: 20px;
+}
+#nosotros #seccion-nosotros-img{
+  background-color: #ffd23f;
+  margin-left: 40px;
+  width: 50%;
+  height: 70%;
+  border-radius: 20px;
+  box-shadow: 0 0 30px 0 #540d6e;
+  
+}
+#nosotros img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+/*-----*/
+#seccion-nosotros-titulo{
+  width: 50%;
+}
+
+#nosotros #seccion-nosotros-titulo{
+  text-align: center;
+}
+#nosotros #seccion-nosotros-titulo h1{
+  text-transform: uppercase;
+  font-size: 46px;
+  font-weight: 500;
+}
+
+/*formulario*/
+.contacto-form {
+  
+  width: 50%;
+}
+.contacto-form fieldset{
+  margin: 0px 40px;
+  padding: 30px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 30px 0 #540d6e;
+  
+}
+
+.form-grup {
+  margin-bottom: 1rem;
+}
+.form-control {
+  width: 100%;
+  padding: 0.375rem 0.7rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/****/
+.contacto-titulo {
+  
+  width: 50%;
+  padding: 20px;
+  
+  text-align: center;
+}
+.contacto-titulo h1{
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 300;
+  color: #ffd23f;
+}
+
+
+/*botone*/
+.btn {
+  width: 100%;
+  padding: 14px 23px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  margin-top: 10px;
+  border: none;
+}
+.btn-light {
+  background-color: #540d6e;
+  color: white;
+  border: 1px solid #ffd23f;
+}
+.btn-light:hover {
+  background-color: #ffd23f;
+  color: #540d6e;
+  border: 1px solid #0ead69;
+}
