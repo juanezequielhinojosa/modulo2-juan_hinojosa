@@ -260,3 +260,19 @@ a {
   color: var(--accent-color);
   font-size: 18px;
 }
+/***SECCION DEL CLIMA***/
+#clima{
+  height: 100vh;
+  text-align: center;
+  
+}
+
+#clima #contenido{
+  margin: 30px auto;
+  width: 400px;
+  height: 400px;
+  background-color: #540d6e;
+  border-radius: 15px;
+  box-shadow: 0 0 30px 0 white
+  ;
+}
