@@ -1,5 +1,6 @@
 //SEGUNDO PASO
 function onClick (event) {
+ 
     event.preventDefault();
     this.style.backgroundColor = "black";
     console.log("click...");
@@ -7,14 +8,24 @@ function onClick (event) {
   
   
     const mensaje = {
-      name: document.getElementById('nombre-comercio').value,
-      email: document.getElementById('nombre-titular').value,
-      message: document.getElementById('celular').value
+      
+      
+      comercio_nombre: document.getElementById('nombre-comercio').value,
+      titular_nombre: document.getElementById('nombre-titular').value,
+      telefono: document.getElementById('celular').value
+      
     }
-    console.log(mensaje);
+    if(mensaje.comercio_nombre===''||mensaje.titular_nombre===''||mensaje.telefono===''){
+        
+        Swal.fire(
+          'No Enviado',
+          'Completa todos los campos!!!',
+          'warning'
+      );
   
-  
-    fetch("https://jsonplaceholder.typicode.com/posts", {
+    }else{
+      console.log(mensaje);
+      fetch("https://jsonplaceholder.typicode.com/posts", {
       method: "POST",
       body: JSON.stringify(mensaje),
       headers: { "Content-type": "application/json; charset=UTF-8" },
@@ -31,6 +42,11 @@ function onClick (event) {
           /* redirectUrl(); */
       })
       .catch((err) => console.log(err));
+    }
+    
+  
+  
+    
   
 }
 
