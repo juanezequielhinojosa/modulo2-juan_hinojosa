@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Estilo-->
     <link rel="stylesheet" href="estilos.css/style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Feria de las Plantas</title>
   </head>
   <body>
+    <!--ENCABEZADO-->
     <header id="header-principal">
+       <!--NAVEGACION-->
       <nav>
         <section class="contenedor">
           <section class="logo">
-            <a href="home"
+            <a href="#home"
               ><img src="img/ClhDI9VWYAAAD-r.png" alt="logotipo"
             /></a>
           </section>
@@ -25,14 +32,15 @@
           </section>
         </section>
       </nav>
+       <!--SECCION HOME--->
       <section id="home">
-        <div class="contenedor">
-          <section id="seccion-texto" class="division">
+        
+          <section id="seccion-texto">
             <h1>
               <span class="title-1">FERIA DE FLORES Y PLANTAS </span> <br />
               <span class="title-2">"jujuy florece"</span> <br />
-              Recibi la primavera<br />
-              en el Paseo de las Plantas!!!<br />
+              <span class="title-3">recibí la primavera</span><br />
+              <span class="title-3">en el Paseo de las Plantas!!!</span><br />
             </h1>
             <p class="large">
               Desde la Asociación de Productores de Plantas Ornamentales de
@@ -41,112 +49,130 @@
               floricultores de la provincia.
             </p>
           </section>
-          <section id="seccion-img" class="division">
+          <section id="seccion-img">
             <img src="img/e074902d0ee166958ebf75b7aa2ff003_XL.jpg" alt="" />
           </section>
-        </div>
+        
       </section>
     </header>
-      <section id="evento" class="flexible">
-        <section id="seccion-video">
-          <iframe
-            src="https://www.youtube.com/embed/jAkmQG7rpEk"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+     <!--SECCION EVENTO-->
+    <section id="evento" class="flexible">
+      <section id="seccion-video">
+        <iframe src="https://www.youtube.com/embed/jAkmQG7rpEk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+      <section id="seccion-titulo" class="contenedor">
+        <article>
+          <h1>
+            <span class="title-1">Feria de plantas</span> <br />
+            <span class="title-2">Se presentó “Jujuy, feria de plantas”</span>
+            <br />
+          </h1>
+          <p class="large">
+            Como cada sábado, una importante cantidad de vecinos recorrió ayer
+            el predio en el que exponen más de 40 productores.
+          </p>
+        </article>
+      </section>
+    </section>
+    <!--SECCION NOSOTROS-->
+    <section id="nosotros" class="flexible">
+      <section id="seccion-nosotros-titulo" class="contenedor">
+        <article>
+          <h1>
+            <span class="title-1">conoce quienes somos</span> <br />
+            <span class="title-2">"ministerio de desarrollo y produccion"</span> <br />
+            <br />
+          </h1>
+          <p class="large">
+            “Jujuy, la producción, el turismo y las
+            inversiones. Nos llevará a transitar un camino hacia el futuro de la
+            mano de los que crean y emprenden, a la luz de la energía jujeña”,
+            las artesanías, la producción y todo lo que le da vida a Jujuy”. “De
+            esta manera, avanzaremos en la construcción de prestigio con
+            contenido y mirando al futuro” para el bien de todos los jujuños. La Asociación de Productores de
+            Plantas Ornamentales de Jujuy está compuesta por 50
+            familias jujeñas que trabajan mancomunadamente para el desarrollo de
+            la Industria Florícola. 12 años pasaron desde aquel día en el que un
+            puñado de familias cultivadoras sembramos este sueño colectivo. 
+          </p>
+        </article>
+      </section>
+       
+      <section id="seccion-nosotros-img">
+        <img src="img/Feria-Plantas.jpg" alt="" />
+      </section>
+    </section>
+      <!--SECCION DE CONTACTO-->
+    <section id="contacto">
+      <section class="flexible">
+        <section class="contacto-form">
+          <fieldset>
+            <form action="" id="formulario">
+              <div class="form-grup">
+                <label for="nombre">Nombre del comercio</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  id="nombre-comercio"
+                  placeholder="ejemplo floreria luci"
+                />
+              </div>
+              <div class="form-grup">
+                <label for="correo">Titular del Comercio</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  name="correo"
+                  id="nombre-titular"
+                  placeholder="ejemplo juan perez"
+                />
+              </div>
+              <div class="form-grup">
+                <label for="celular">Celular</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  id="celular"
+                  placeholder="numero de whatsapp"
+                />
+              </div>
+              <button class="btn btn-light" id="enviar">Enviar</button>
+            </form>
+          </fieldset>
         </section>
-        <section id="seccion-titulo" class="contenedor">
-          <article>
-            <h1>
-              <span class="title-1">Feria de plantas</span> <br />
-              <span class="title-2">Se presentó “Jujuy, feria de plantas”</span>
-              <br />
-              <br />
-            </h1>
-            <p class="large">
-              Como cada sábado, una importante cantidad de vecinos recorrió ayer
-              el predio en el que exponen más de 40 productores.
-            </p>
-          </article>
+       
+        <section class="contacto-titulo">
+          <h1>
+            <span class="title-1">registrate ahora!!! </span> <br />
+            <span class="title-2">"feria de plantas"</span> <br />
+            completa el formulario y reserva tu lugar<br />
+          </h1>
+          <p class="large">
+            Revisaremos tu solicitud y te enviaremos un correo electrónico
+            para confirmar tu participación en el evento para mas información
+            unite al grupo de whatsapp 
+             
+          </p>
+          <a class="socials-icon" href=""><i class="bi bi-whatsapp"></i>
         </section>
       </section>
-      <section id="nosotros" class="flexible">
-        <section id="seccion-nosotros-titulo" class="contenedor">
-          <article>
-            <h1>
-              <span class="title-1">"quienes somos"</span> <br />
-              <span class="title-2">Conoce quienes somos”</span> <br />
-              <br />
-            </h1>
-            <p class="large">
-              “Jujuy, energía viva visibilizará la producción, el turismo y las
-              inversiones. Nos llevará a transitar un camino hacia el futuro de
-              la mano de los que crean y emprenden, a la luz de la energía
-              jujeña”, expresó el mandatario y recalcó que “distinguirá al
-              litio, la energía verde, las artesanías, la producción y todo lo
-              que le da vida a Jujuy”. “De esta manera, avanzaremos en la
-              construcción de prestigio con contenido y mirando al futuro”,
-              completó.
-            </p>
-          </article>
-        </section>
-        <section id="seccion-nosotros-img">
-          <img src="img/Feria-Plantas.jpg" alt="" />
-        </section>
-      </section>
-      <section id="contacto">
-        <section class="flexible">
-          <section class="contacto-form" >
-            <fieldset>
-              
-              <form action="" id="formulario">
-                <div class="form-grup">
-                  <label for="nombre">Nombre del comercio</label>
-                  <input
-                    class="form-control"
-                    type="text"
-                    id="nombre"
-                    placeholder="Ingrese su nombre"
-                  />
-                </div>
-                <div class="form-grup">
-                  <label for="correo">Titular del Comercio</label>
-                  <input
-                    class="form-control"
-                    type="email"
-                    name="correo"
-                    id="correo"
-                    placeholder="ejemplo@gmail.com"
-                  />
-                </div>
-                <div class="form-grup">
-                  <label for="celular">Celular</label>
-                  <input
-                    class="form-control"
-                    type="text"
-                    id="celular"
-                    placeholder="388-"
-                  />
-                </div>
-                <button class="btn btn-light" id="enviar">Enviar</button>
-              </form>
-            </fieldset>
-          </section>
-          <section class="contacto-titulo">
-            <h1>
-              <span class="title-1">registrate ahora!!! </span> <br />
-              <span class="title-2">"feria de plantas"</span> <br />
-              completa el formulario y reserva tu lugar<br />
-              
-            </h1>
-            <p class="large">
-              Tu solicitud sera revisada y te enviaremos un correo electronico para confirmar tu participacion en el evento para mas informacion visita nuestras redes sociales
-            </p>
-          </section>
-        </section>
-      </section>
-    
+    </section>
+    <footer>
+      <div class="footer-section-container">
+        <ul class="socials">
+          <li><a class="socials-icon" href=""><i class="bi bi-github"></i></a></li>
+          <li><a class="socials-icon" href=""><i class="bi bi-linkedin"></i></a></li>
+          <li><a class="socials-icon" href=""><i class="bi bi-twitter"></i></a></li>
+          <li><a class="socials-icon" href=""><i class="bi bi-facebook"></i></a></li>
+          <li><a class="socials-icon" href=""><i class="bi bi-instagram"></i></a></li>
+        </ul>
+      </div>
+        <div class="footer-section-container">
+          <p>
+            &copy; 2022 - <a class="footer-link" href="https://www.linkedin.com">Ministerio de desarrollo y produccion</a>
+          </p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>
